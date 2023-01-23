@@ -1,7 +1,7 @@
 mybatis-generator-gui
 ==============
 
-mybatis-generator-gui是基于[mybatis generator](http://www.mybatis.org/generator/index.html)开发一款界面工具, 本工具可以使你非常容易及快速生成Mybatis的Java POJO文件及数据库Mapping文件。
+mybatis-generator-gui是基于 [mybatis generator](http://www.mybatis.org/generator/index.html) 开发一款界面工具, 本工具可以使你非常容易及快速生成Mybatis的Java POJO文件及数据库Mapping文件。
 
 ![image](https://user-images.githubusercontent.com/3505708/49334784-1a42c980-f619-11e8-914d-9ea85db9cec3.png)
 
@@ -10,6 +10,9 @@ mybatis-generator-gui是基于[mybatis generator](http://www.mybatis.org/generat
 
 
 ![overSSH](https://user-images.githubusercontent.com/3505708/51911646-5920b000-240d-11e9-9048-738306a56d14.png)
+
+![SearchSupport](https://user-images.githubusercontent.com/8142133/115959972-881d2200-a541-11eb-8ad4-052f379b91f1.png)
+
 
 ### 核心特性
 * 按照界面步骤轻松生成代码，省去XML繁琐的学习与配置过程
@@ -20,11 +23,13 @@ mybatis-generator-gui是基于[mybatis generator](http://www.mybatis.org/generat
 * 可选的去除掉对版本管理不友好的注释，这样新增或删除字段重新生成的文件比较过来清楚
 * 目前已经支持Mysql、Mysql8、Oracle、PostgreSQL与SQL Server，暂不对其他非主流数据库提供支持。(MySQL支持的比较好，其他数据库有什么问题可以在issue中反馈)
 
-### 要求
-本工具由于使用了Java 8的众多特性，所以要求JDK <strong>1.8.0.60</strong>以上版本，另外<strong>JDK 1.9</strong>暂时还不支持。
+### 运行要求（重要！！！）
+本工具仅支持Java的2个最新的LTS版本，jdk8和jdk11
+* jdk1.8要求版本在<strong>1.8.0.60</strong>以上版本
+* Java 11无版本要求
 
-### 下载
-你可以加入QQ群下载二进制安装版，目前支持Windows和MacOS，注意你的JDK是不是1.8，并且版本大于1.8.0.60
+### 直接运行（非必须）
+推荐使用IDE直接运行，如果需要二进制安装包，可以关注公众号获取二进制安装版，目前支持Windows和MacOS，注意你的JDK是不是1.8，并且版本大于1.8.0.60
 
 
 ### 启动本软件
@@ -79,7 +84,7 @@ mybatis-generator-gui是基于[mybatis generator](http://www.mybatis.org/generat
     * 如果你是一些常见的数据库连接、软件启动不了等问题，请先仔细阅读上面的文档，再解决不了在下面的QQ群中问（问问题的时候尽量把各种信息都提供好，否则只是几行文字是没有人愿意为你解答的）。
     
 ### QQ群
-鉴于有的同学可能有一些特殊情况不能使用，我建了一个QQ群供大家交流，QQ群号：613911142（已满），608454894（已满）, 677521221
+鉴于有的同学可能有一些特殊情况不能使用，我建了一个钉钉群供大家交流，钉钉群号：35412531 （原QQ群已不再提供，QQ不方便打开）
 
 - - -
 Licensed under the Apache 2.0 License
